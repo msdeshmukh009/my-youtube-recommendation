@@ -9,11 +9,17 @@ var database = {
       link: "https://www.youtube.com/embed/3qHkcs3kG44"
     },
     {
+      name: "Joe Rogan Experience #1158 - Chuck Palahniuk",
+      rating: "⭐⭐⭐⭐⭐",
+      link: "https://open.spotify.com/embed/episode/1j5rNNfDQuGjj3EjErwVge?t=0"
+    },
+    {
       name:
         "Naval Ravikant Interview (Full Episode) | The Tim Ferriss Show (Podcast)",
       rating: "⭐⭐⭐⭐⭐",
       link: "https://www.youtube.com/embed/-7J-Gwc9pVg"
     },
+
     {
       name: "Joe Rogan Experience #1169 - Elon Musk",
       rating: "⭐⭐⭐⭐",
@@ -124,6 +130,12 @@ var database = {
         "Shine On You Crazy Diamond (Full Length: Parts I - IX) - Pink Floyd",
       rating: "⭐⭐⭐⭐⭐",
       link: "https://www.youtube.com/embed/8UXircX3VdM"
+    },
+    {
+      name:
+        "AFSANAY - Young Stunners | Talhah Yunus | Talha Anjum | Prod. By Jokhay (Official Music Video)",
+      rating: "⭐⭐⭐⭐⭐",
+      link: "https://www.youtube.com/embed/ijE2MMtzkHg"
     },
     {
       name:
@@ -245,6 +257,8 @@ export default function App() {
                   style={{ minWidth: "50vw", minHeight: "25vw" }}
                   src={recommendation.link}
                   title={recommendation.name}
+                  allowtransparency="true"
+                  allow="encrypted-media"
                 >
                   {" "}
                 </iframe>
